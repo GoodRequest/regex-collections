@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "test-all": "jest",
+    "test-email": "jest -- ./src/tests/emailRegex.unit.test.jsx",
+    "test-password": "jest -- ./src/tests/passwordRegex.unit.test.jsx",
+    "test-fblink": "jest -- ./src/tests/socialLinkFBRegex.unit.test.jsx"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.18.6",
+    "@babel/preset-env": "7.18.6",
+    "@types/jest": "28.1.4",
+    "babel-jest": "28.1.2",
+    "jest": "28.1.2"
+  }
+}
