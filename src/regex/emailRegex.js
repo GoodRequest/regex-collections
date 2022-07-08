@@ -1,3 +1,1 @@
-// TODO nazvy grc, a vobec jediny rozdiel medzi nimi +- je jeden je menej striktny ako druhy... preriedil by som to
-export const emailRegex = /^(([^<>()\\[\].,;:\s@"]+(\.[^<>()\\[\].,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-export const emailRegexMato = /^[a-z0-9!#$%&'*+=?^_'{|}~-]+(?:\.[a-z0-9!#$%&'*+=?^_'{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/
+export const emailRegex = /^[a-z0-9!#$%&'*+=?^_'{|}~-]+(?:\.[a-z0-9!#$%&'*+=?^_'{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9]){2,}$/
