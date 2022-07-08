@@ -18,16 +18,16 @@ passwordHasSpecialCharRegex
 - if you want to implement progress bar or tooltip for password, u might want to use these above
 
 ### social links
-socialLinkIGRegex
+socialLinkIGRegex </br>
 socialLinkFBRegex
 
 ### date and time
-yearRegex
-yearAndMonthRegex
-dateRegex
-timeRegex
+yearRegex </br>
+yearAndMonthRegex </br>
+dateRegex </br>
+timeRegex </br>
 
 ### utility
-zipCodeSKRegex
-isWholeNumberRegex
-isDecimalNumberRegex
+zipCodeSKRegex </br>
+isWholeNumberRegex </br>
+isDecimalNumberRegex </br>
