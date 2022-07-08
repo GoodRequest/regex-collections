@@ -3,7 +3,9 @@
     "test-all": "jest",
     "test-email": "jest -- ./src/tests/emailRegex.unit.test.jsx",
     "test-password": "jest -- ./src/tests/passwordRegex.unit.test.jsx",
-    "test-fblink": "jest -- ./src/tests/socialLinkFBRegex.unit.test.jsx"
+    "test-fblink": "jest -- ./src/tests/socialLinkFBRegex.unit.test.jsx",
+    "test-iglink": "jest -- ./src/tests/socialLinkIGRegex.unit.test.jsx",
+    "test-dateandtime": "jest -- ./src/tests/dateAndTimeRegex.unit.test.jsx"
   },
   "dependencies": {
     "react": "18.2.0",

@@ -1,3 +1,4 @@
+// TODO i dont like this.
 export { emailRegexRFC, emailRegex } from './regex/emailRegex'
 export { passwordRegex, passwordRegexWithSpecialChar, passwordLength, passwordHasUppercase, passwordHasNumber, passwordHasLowercase, passwordHasSpecialChar} from './regex/passwordRegex'
 export { socialLinkIGRegex } from './regex/socialLinkIGRegex'

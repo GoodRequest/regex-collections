@@ -10,7 +10,7 @@ describe('testing socialLinkFB regex', () => {
         expect(result).toBe(false)
     })
     it('invalid fb social link', () => {
-        const result = socialLinkFBRegex.test('https://www.facebook.com/')
+        const result = socialLinkFBRegex.test('https://www.facebook.com')
         expect(result).toBe(false)
     })
     it('valid fb social link', () => {
@@ -29,7 +29,7 @@ describe('testing socialLinkFB regex2', () => {
         expect(result).toBe(false)
     })
     it('invalid fb social link', () => {
-        const result = socialLinkFBRegex2.test('https://www.facebook.com/')
+        const result = socialLinkFBRegex2.test('https://www.facebook.com')
         expect(result).toBe(false)
     })
     it('valid fb social link', () => {
