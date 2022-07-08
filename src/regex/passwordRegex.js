@@ -15,9 +15,9 @@ export const passwordRegex = /(?=.{8,})^(?=.*[a-z]+)(?=.*[A-Z]+)(?=.*\d+)/
  *	- contains at least one number: (?=.*\d+)
  *  - contains at least one special characted: (?=.*[\!@#$%^&*()\\[\]{}\-_+=~`|:;"'<>,./?])
  */
-export const passwordRegexWithSpecialChar = /(?=.{8,})^(?=.*[a-z]+)(?=.*[A-Z]+)(?=.*\d+)(?=.*[\!@#$%^&*()\\[\]{}\-_+=~`|:;"'<>,./?])/
-export const passwordLength = /(?=.{8,})/
-export const passwordHasUppercase = /(?=.*[A-Z]+)/
-export const passwordHasLowercase = /(?=.*[a-z]+)/
-export const passwordHasNumber = /(?=.*\d+)/
-export const passwordHasSpecialChar = /(?=.*[\!@#$%^&*()\\[\]{}\-_+=~`|:;"'<>,./?])/
+export const passwordWithSpecialCharRegex = /(?=.{8,})^(?=.*[a-z]+)(?=.*[A-Z]+)(?=.*\d+)(?=.*[\!@#$%^&*()\\[\]{}\-_+=~`|:;"'<>,./?])/
+export const passwordLengthRegex = /(?=.{8,})/
+export const passwordHasUpperCaseRegex = /(?=.*[A-Z]+)/
+export const passwordHasLowerCaseRegex = /(?=.*[a-z]+)/
+export const passwordHasNumberRegex = /(?=.*\d+)/
+export const passwordHasSpecialCharRegex = /(?=.*[\!@#$%^&*()\\[\]{}\-_+=~`|:;"'<>,./?])/
