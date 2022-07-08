@@ -5,7 +5,8 @@
     "test-password": "jest -- ./src/tests/passwordRegex.unit.test.jsx",
     "test-fblink": "jest -- ./src/tests/socialLinkFBRegex.unit.test.jsx",
     "test-iglink": "jest -- ./src/tests/socialLinkIGRegex.unit.test.jsx",
-    "test-dateandtime": "jest -- ./src/tests/dateAndTimeRegex.unit.test.jsx"
+    "test-dateandtime": "jest -- ./src/tests/dateAndTimeRegex.unit.test.jsx",
+    "test-utility": "jest -- ./src/tests/utilityRegex.unit.test.jsx"
   },
   "dependencies": {
     "react": "18.2.0",
