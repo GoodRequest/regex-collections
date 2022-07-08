@@ -1,12 +1,12 @@
 {
   "scripts": {
     "test-all": "jest",
-    "test-email": "jest -- ./src/tests/emailRegex.unit.test.jsx",
-    "test-password": "jest -- ./src/tests/passwordRegex.unit.test.jsx",
-    "test-fblink": "jest -- ./src/tests/socialLinkFBRegex.unit.test.jsx",
-    "test-iglink": "jest -- ./src/tests/socialLinkIGRegex.unit.test.jsx",
-    "test-dateandtime": "jest -- ./src/tests/dateAndTimeRegex.unit.test.jsx",
-    "test-utility": "jest -- ./src/tests/utilityRegex.unit.test.jsx"
+    "test-email": "jest -- ./src/tests/emailRegex.unit.test.js",
+    "test-password": "jest -- ./src/tests/passwordRegex.unit.test.js",
+    "test-fblink": "jest -- ./src/tests/socialLinkFBRegex.unit.test.js",
+    "test-iglink": "jest -- ./src/tests/socialLinkIGRegex.unit.test.js",
+    "test-dateandtime": "jest -- ./src/tests/dateAndTimeRegex.unit.test.js",
+    "test-utility": "jest -- ./src/tests/utilityRegex.unit.test.js"
   },
   "dependencies": {
     "react": "18.2.0",
