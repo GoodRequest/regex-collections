@@ -1,5 +1,5 @@
 // validate YYYY year
-export const yearRegex = /^(\d{4})/
+export const yearRegex = /^(\d{4})$/
 // validate YYYY-MM date format
 export const yearAndMonthRegex = /^(\d{4})[-]((0[1-9])|(1[012]))/
 // validate YYYY-MM-DD date format
