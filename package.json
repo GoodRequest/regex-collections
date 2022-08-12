@@ -1,5 +1,5 @@
 {
-  "name": "regex-collections",
+  "name": "@goodrequest/regex-collections",
   "version": "0.0.1",
   "author": "Daniel Hlavaty <daniel.hlavaty@goodrequest.com",
   "scripts": {
