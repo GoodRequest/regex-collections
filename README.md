@@ -1,4 +1,8 @@
-# regex-collection
+# regex-collections
+
+## installation
+
+Run npm i @goodrequest/regex-collections
 
 This package contains these regexes
 
