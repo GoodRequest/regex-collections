@@ -2,6 +2,7 @@
   "name": "@goodrequest/regex-collections",
   "version": "0.0.1",
   "author": "Daniel Hlavaty <daniel.hlavaty@goodrequest.com",
+  "repository": "git@github.com:GoodRequest/regex-collections.git",
   "scripts": {
     "test-all": "jest",
     "test-email": "jest -- ./src/tests/emailRegex.unit.test.js",
