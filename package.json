@@ -1,7 +1,8 @@
 {
-  "name": "regex-collections",
-  "version": "1.0.0",
+  "name": "@goodrequest/regex-collections",
+  "version": "0.0.2",
   "author": "Daniel Hlavaty <daniel.hlavaty@goodrequest.com",
+  "repository": "git@github.com:GoodRequest/regex-collections.git",
   "scripts": {
     "test-all": "jest",
     "test-email": "jest -- ./src/tests/emailRegex.unit.test.js",
