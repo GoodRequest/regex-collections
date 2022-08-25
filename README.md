@@ -2,7 +2,7 @@
 
 ## installation
 
-Run npm i @goodrequest/regex-collections
+Run `npm i @goodrequest/regex-collections`
 
 This package contains these regexes
 
