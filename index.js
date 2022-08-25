@@ -1,2 +1,0 @@
-import { emailRegex, passwordRegex, passwordWithSpecialCharRegex, passwordLengthRegex, passwordHasUpperCaseRegex, passwordHasNumberRegex, passwordHasLowerCaseRegex, 
-passwordHasSpecialCharRegex, socialLinkFBRegex, socialLinkIGRegex, yearRegex, yearAndMonthRegex, dateRegex, timeRegex, zipCodeSKRegex, isWholeNumberRegex, isDecimalNumberRegex } from './src'
