@@ -1,1 +1,1 @@
-declare module '@goodrequest/regex-collections'
+declare module 'regex-collections'

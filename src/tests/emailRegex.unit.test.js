@@ -2,7 +2,6 @@ import { emailRegex } from '../regex/emailRegex'
 import { faker } from '@faker-js/faker'
 
 describe('testing our email regex', () => {
-   
     for(let i = 0; i < 100; i++) {
         const fakedMail = faker.internet.email()
         it (`faked email ${fakedMail}`, () => {
