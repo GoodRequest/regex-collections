@@ -1,6 +1,16 @@
 import { emailRegex } from '../regex/emailRegex'
+import { faker } from '@faker-js/faker'
 
 describe('testing our email regex', () => {
+   
+    for(let i = 0; i < 100; i++) {
+        const fakedMail = faker.internet.email()
+        it (`faked email ${fakedMail}`, () => {
+            const result = emailRegex.test(`${fakedMail}`)
+            expect(result).toBe(true)
+        })
+    }
+
     it('valid email mysite@ourearth.com', () => {
         const result = emailRegex.test('mysite@ourearth.com')
         expect(result).toBe(true)
