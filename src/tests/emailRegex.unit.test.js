@@ -14,7 +14,11 @@ describe('testing our email regex', () => {
         expect(result).toBe(true)
     })
     it('valid email firstname-lastname@example.com', () => {
-        const result = emailRegex.test('mysite@you.me.net')
+        const result = emailRegex.test('firstname-lastname@example.com')
+        expect(result).toBe(true)
+    })
+    it('valid email firstname-lastname@example.cz', () => {
+        const result = emailRegex.test('firstname-lastname@example.cz')
         expect(result).toBe(true)
     })
     it('valid email 1234567890@example.com', () => {
