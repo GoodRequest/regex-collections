@@ -1,7 +1,15 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const emailRegex_1 = require("../regex/emailRegex");
+const faker_1 = require("@faker-js/faker");
 describe('testing our email regex', () => {
+    for (let i = 0; i < 100; i++) {
+        const fakedMail = faker_1.faker.internet.email();
+        it(`faked email ${fakedMail}`, () => {
+            const result = emailRegex_1.emailRegex.test(`${fakedMail}`);
+            expect(result).toBe(true);
+        });
+    }
     it('valid email mysite@ourearth.com', () => {
         const result = emailRegex_1.emailRegex.test('mysite@ourearth.com');
         expect(result).toBe(true);
@@ -15,7 +23,11 @@ describe('testing our email regex', () => {
         expect(result).toBe(true);
     });
     it('valid email firstname-lastname@example.com', () => {
-        const result = emailRegex_1.emailRegex.test('mysite@you.me.net');
+        const result = emailRegex_1.emailRegex.test('firstname-lastname@example.com');
+        expect(result).toBe(true);
+    });
+    it('valid email firstname-lastname@example.cz', () => {
+        const result = emailRegex_1.emailRegex.test('firstname-lastname@example.cz');
         expect(result).toBe(true);
     });
     it('valid email 1234567890@example.com', () => {

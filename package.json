@@ -1,6 +1,6 @@
 {
   "name": "@goodrequest/regex-collections",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Daniel Hlavaty <daniel.hlavaty@goodrequest.com",
   "repository": "git@github.com:GoodRequest/regex-collections.git",
   "module": "dist/index.js",
